@@ -1,3 +1,8 @@
+.body{
+  margin: 0px;
+  padding: 0px;
+  
+}
 .firstSection{
   display: inline-flex;
   max-width: 100%;
@@ -27,11 +32,11 @@
 }
 #welcomeText{
   width: 400px;
-  font-size: 14px;
-  font-family: sans-serif;
+  font-size: 15px;
+  font-family: 'Merriweather', serif;
   font-weight: 200;
   margin-left: -13px;
-  color: rgba(42, 40, 40, 0.883);
+  color: rgb(51, 51, 51);
 }
 .linkButton{
   margin-left: -15px;
@@ -41,7 +46,7 @@
   color: honeydew;
   background: linear-gradient(to bottom, #cc0e00d3 0%, #ff0066 100%);
   border-radius: 5px;
-  padding: 5px 15px;
+  padding: 7px 15px;
 
 }
 #scroll{
@@ -58,13 +63,14 @@
   margin-left: 40px;
 }
 .person-image{
-  margin-right: 160px;
+  margin-right: 110px;
 }
 #profilePic{
-  height: 400px;
+  height: 450px;
   margin-right: 35px; 
 }
 #heading2{
+  margin-top: 40px;
   text-align: center;
   font-size: 25px;
   font-family: 'Merriweather', serif;
@@ -77,7 +83,7 @@
 .contents{
   display: inline-flex;
   max-width: 100%;
-  margin-top: 20px;
+  margin-top: 15px;
 }
 .mission{
   width: 320px;
@@ -108,13 +114,16 @@
 }
 .miss-vis-goal{
   margin-left: 20px;
-  font-family: sans-serif;
+  font-family: 'Merriweather', serif;
   font-weight: 700;
+  font-size: 20px;
 }
 .box-texts{
   margin-left: 20px;
   margin-right: 10px;
-  color: darkslategrey;
+  color: rgb(21, 29, 29);
+  font-family: sans-serif;
+  font-size: 15px;
 }
 
 .thirdSection{
@@ -137,6 +146,7 @@
 }
 .thirdHeadingText{
   width: 650px;
+  color: rgb(26, 24, 24);
 }
 .thirdHeadingButton{
   margin-left: 15px;
@@ -149,32 +159,92 @@
 #projectPic{
   height: 300px;
   width: 350px;
-  margin-left: 180px;
+  margin-left: 280px;
 }
 .fourth-Sec-title{
+  font-family: 'Merriweather', serif;
   margin-left: 140px;
   width: 400px;
 }
 .linkButton3
 {
-  margin-left: -4px;
+  margin-left: -1px;
   text-decoration: none;
   font-size: 16px;
   font-weight: 200;
   color: honeydew;
   background: linear-gradient(to bottom, #cc0e00d3 0%, #ff0066 100%);
   border-radius: 5px;
-  padding: 5px 15px;
+  padding: 7px 15px;
 }
 
+.section5{
+  width: 100%;
+  display: inline-flex;
+ }
+ 
+
+.web-dev{
+  height: 380px;
+  width: 350px;
+  margin-left: 145px;
+  margin-top: 150px;
+  margin-bottom: 50px;
+  border-radius: 20px;
+}
+
+.first-part{
+  height: 30px;
+  margin-left: 180px;
+  margin-top: 180px;
+  margin-bottom: 50px;
+  font-size: 28px;
+  font-weight: 900;
+  font-family: 'Merriweather', serif;
+}
+.second-part{
+  color: #f1176e;
+}
+.head5text
+{
+    width: 400px;
+    margin-left: 180px;
+    height: 100px;
+    font-family: 'Merriweather', serif;
+    font-size: 15px;
+    color: rgb(22, 19, 19);
+}
+.linkButton5{
+  margin-left: 180px;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 200;
+  color: honeydew;
+  background: linear-gradient(to bottom, #cc0e00d3 0%, #ff0066 100%);
+  border-radius: 5px;
+  padding: 7px 15px;
+}
 .footer{
+  margin-top: 10px;
   background-color: rgb(5, 5, 5);
-  max-width: 100%;
-  height: 150px;
+  width: 100%;
+  height: 155px;
 }
 .footer-heading{
   color: cornsilk;
   font-family: 'Merriweather', serif;
   text-align:center;
   font-size: 30px;
+  font-weight: 800;
+}
+
+.footer-year{
+  color: #ff0066;
+}
+
+.footer-text{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: beige;
+  text-align: center;
+  margin-top: -10px;
 }
