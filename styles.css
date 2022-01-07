@@ -84,6 +84,7 @@
   display: inline-flex;
   max-width: 100%;
   margin-top: 15px;
+  margin-bottom: 50px;
 }
 .mission{
   width: 320px;
@@ -127,14 +128,19 @@
 }
 
 .thirdSection{
-  max-width: 100%;
   margin-top: 100px;
   display: inline-flex;
+  background-image: url(images/shapes/shape-1.png);
+  background-size: 200px;
+  background-repeat: no-repeat;
+  background-clip: content-box;
+  margin-left: 60px;
 }
 
 #codingPic{
-  height: 300px;
-  margin-left: 145px;
+  height: 350px;
+  margin-left: 85px;
+  margin-top: -40px;;
 }
 
 .thirdHeading{
@@ -143,6 +149,7 @@
 }
 .third-title{
   font-size: 25px;
+  
 }
 .thirdHeadingText{
   width: 650px;
@@ -154,11 +161,11 @@
 .fourthSection{
   margin-top: 100px;
   display: inline-flex;
+  background-image: url(images\shapes\shape-1.png);
 }
   
 #projectPic{
-  height: 300px;
-  width: 350px;
+  height: 350px;
   margin-left: 280px;
 }
 .fourth-Sec-title{
